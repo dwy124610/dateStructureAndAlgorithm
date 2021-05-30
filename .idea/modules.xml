@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/algorithm/algorithm.iml" filepath="$PROJECT_DIR$/algorithm/algorithm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dataSructure/dataSructure.iml" filepath="$PROJECT_DIR$/dataSructure/dataSructure.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dateStructureAndAlgorithm.iml" filepath="$PROJECT_DIR$/dateStructureAndAlgorithm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dataSructure/sparseArray/sparseArray.iml" filepath="$PROJECT_DIR$/dataSructure/sparseArray/sparseArray.iml" />
+    </modules>
+  </component>
+</project>
