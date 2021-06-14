@@ -3,8 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/algorithm/algorithm.iml" filepath="$PROJECT_DIR$/algorithm/algorithm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dataSructure/arrayQueue/arrayQueue.iml" filepath="$PROJECT_DIR$/dataSructure/arrayQueue/arrayQueue.iml" />
       <module fileurl="file://$PROJECT_DIR$/dataSructure/dataSructure.iml" filepath="$PROJECT_DIR$/dataSructure/dataSructure.iml" />
       <module fileurl="file://$PROJECT_DIR$/dateStructureAndAlgorithm.iml" filepath="$PROJECT_DIR$/dateStructureAndAlgorithm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dataSructure/linkedList/linkedList.iml" filepath="$PROJECT_DIR$/dataSructure/linkedList/linkedList.iml" />
       <module fileurl="file://$PROJECT_DIR$/dataSructure/sparseArray/sparseArray.iml" filepath="$PROJECT_DIR$/dataSructure/sparseArray/sparseArray.iml" />
     </modules>
   </component>
