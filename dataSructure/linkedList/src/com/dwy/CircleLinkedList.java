@@ -17,7 +17,7 @@ public class CircleLinkedList<T> extends AbstractLinkedList<T>{
      * 将对象转化为node节点
      * @param <T>
      */
-    private static class Node<T> extends AbstractLinkedList.Node<T> {
+    public static class Node<T> extends AbstractLinkedList.Node<T> {
 
         /**
          * 指向下一个node节点的指针
@@ -80,8 +80,8 @@ public class CircleLinkedList<T> extends AbstractLinkedList<T>{
     @Override
     protected void removeHead() {
         Node<T> end = getNode(getSize() - 1);
-        end.next = head.next;
         head = head.next;
+        end.next = head;
     }
 
     @Override
@@ -109,4 +109,9 @@ public class CircleLinkedList<T> extends AbstractLinkedList<T>{
         }
         return str.concat(temp.toString()).concat("->");
     }
+
+    public Node<T> getHead() {
+        return head;
+    }
+
 }

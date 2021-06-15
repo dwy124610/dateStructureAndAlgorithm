@@ -28,7 +28,7 @@ public class LinkedListApplication {
         circleLinkedList.add(3);
         circleLinkedList.add(4,1);
         System.out.println(circleLinkedList.toString());
-        circleLinkedList.remove(1);
+        circleLinkedList.remove(0);
         System.out.println(circleLinkedList.toString());
     }
 }
