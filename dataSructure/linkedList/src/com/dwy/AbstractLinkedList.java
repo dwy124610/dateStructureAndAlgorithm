@@ -8,11 +8,6 @@ import com.dwy.exception.IndexOutOfRangeException;
  */
 public abstract class AbstractLinkedList<T> implements LinkedList<T> {
 
-    /**
-     * 头指针
-     */
-    private Node<T> head;
-
     @Override
     public  void add(T item){
         add(item,getSize());
@@ -121,10 +116,27 @@ public abstract class AbstractLinkedList<T> implements LinkedList<T> {
         }
     }
 
+    /**
+     * 向非头部的指定位置添加
+     * @param index 指定位置
+     * @param item 添加的对象
+     * @return void
+     * @create 2021/6/15 14:50
+     */
     protected abstract void addMid(Integer index, T item);
 
+    /**
+     * 删除头节点
+     * @return void
+     * @create 2021/6/15 14:50
+     */
     protected abstract void removeHead();
 
+    /**
+     * 得到当前list长度
+     * @return java.lang.Integer
+     * @create 2021/6/15 14:51
+     */
     protected abstract Integer getSize();
 
     /**
